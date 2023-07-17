@@ -49,3 +49,25 @@
 .dish-name {
     text-align: left;
 }
+
+.dish-details {
+    height: 100px;
+    text-align:start;
+}
+
+.special-card-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    width: 200px;
+    height: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Karla';
+}
+
+.delivery-icon {
+    width: 20px;
+    height: 20px;
+}
