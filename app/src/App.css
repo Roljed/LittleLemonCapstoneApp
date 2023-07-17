@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background: #ee9972;
+  padding: 20px;
+}
+nav a {
+  color: #edefee;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+main {
+  max-width: 60em;
+  margin: 1em auto;
+  padding: 2em;
+  border-radius: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#bottom-navigation {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+#bottom-navigation .row {
+  padding: 2em 5em;
+  border: 0.1em solid #2c2c2c;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 1em;
+  gap: 5em;
+  width: 50em;
+  height: 10em;
+}
+/* 
+/* 
+/* Footer */
+/* #bottom-navigation {
+  position: absolute;
+  /* width: 903px;
+  height: 250px; */
+/* } */
+
+
+/* Sub-heading */
+/* #bottom-navigation li {
+  position: absolute;
+  /* width: 38px; */
+  /* height: 16px; */
+
+  /* font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+  color: #000000; */
+/* } */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Sub-heading */
+/* #bottom-navigation h4{
+  position: absolute;
+  /* width: 127px;
+  height: 24px; */
+
+  /* font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px; */
+  /* identical to box height */
+
+  /* color: #000000; */
+/* } */
+
+/* Rectangle 1 */
+/* #bottom-navigation img{ */
+  position: absolute;
+  width: 162px;
+  height: 248px;
+
+  /* background: url(cooked-meat-on-plate.jpg); */
+  border-radius: 13.0102px;
+/* } */
