@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link to="/menu" className="nav-item">Menu</Link>
             <Link to="/reservations" className="nav-item">Reservations</Link>
             <Link to="/order-online" className="nav-item">Order Online</Link>
-            <Link to="/log-in" className="nav-item">Log In</Link>
+            <Link to="/log-in" className="nav-item">Login</Link>
         </nav>
         <Routes >
             <Route path="/" element={<Home />} />
