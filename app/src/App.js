@@ -69,7 +69,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Pages/>
+      {/* <Pages/> */}
       <BottomNavigation/>
     </>
   )

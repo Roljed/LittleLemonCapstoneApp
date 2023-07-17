@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactComponent as MetaImage } from '../../assets/home icon.svg'
+import Hero from '../../Components/Hero/Hero'
 
 function Home() {
     return (
@@ -8,8 +9,8 @@ function Home() {
             <meta name="og:title" content="Little Lemon"/>
             <meta name="og:description" content="some description"/>
             <meta name="og:image" content={MetaImage}/>
+            <Hero />
 
-            <h1>This is my home page</h1>
         </>
     )
 }
