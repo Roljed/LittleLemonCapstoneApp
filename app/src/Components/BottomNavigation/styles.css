@@ -1,0 +1,49 @@
+.bottom-navigation {
+    margin: 100px auto;
+    width: 900px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 900px;
+}
+
+.part {
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.img-part {
+    width: 250px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.part h4 {
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.part ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.part a {
+    font-family: 'Karla';
+    font-style: normal;
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
