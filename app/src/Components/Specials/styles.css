@@ -1,0 +1,51 @@
+.special-section {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    row-gap: 30px;
+}
+
+.specials-title {
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 70px auto;
+}
+
+.container-specials {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 400px;
+}
+
+.special-card {
+    margin: 10px 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+}
+
+.dish-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.special-dish {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.dish-price {
+    color: #EE9972;
+}
+
+.dish-name {
+    text-align: left;
+}
