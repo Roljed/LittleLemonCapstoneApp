@@ -1,5 +1,6 @@
 import './styles.css'
 import Restaurant from '../../assets/restaurant.jpg'
+import Navbar from '../Navbar/Navbar'
 
 
 const BottomNavigation = () => {
@@ -12,12 +13,12 @@ const BottomNavigation = () => {
                 <div className="part">
                     <h4>Doormat Navigation</h4>
                     <ul>
-                        <li><a href="...">Home</a></li>
-                        <li><a href="...">About</a></li>
-                        <li><a href="...">Menu</a></li>
-                        <li><a href="...">Reservations</a></li>
-                        <li><a href="...">Order Online</a></li>
-                        <li><a href="...">Login</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/menu">Menu</a></li>
+                        <li><a href="/reservetions">Reservations</a></li>
+                        <li><a href="/order-online">Order Online</a></li>
+                        <li><a href="/login">Login</a></li>
                     </ul>
                 </div>
                 <div className="part">
