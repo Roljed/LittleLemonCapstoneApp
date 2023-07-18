@@ -1,0 +1,54 @@
+.customer-testimonials {
+    display: flex;
+    flex-flow: column;
+    margin-top: 100px;
+    max-width: 900px;
+    min-width: 350px;
+}
+
+.customer-testimonials h2 {
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 0px auto;
+    margin-bottom: 40px;
+}
+
+.customer-testimonials ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.customer-review-card {
+    max-width: 180px;
+    height: 250px;
+    padding: 15px;
+    margin: auto;
+    background-color: #EDEFEE;
+}
+
+
+.review-card-rating {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.review-card-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.customer-img {
+    border-radius: 16px;
+    width: 75px;
+    height: 75px;
+}
+
+.review-card-details {
+    font-size: 14px;
+}
