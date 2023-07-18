@@ -14,8 +14,8 @@ const BookingForm = (props) => {
         event.preventDefault()
         console.log(booking)
         console.log(event)
-        props.updateTimes(event.target[2].selectedOptions[0].id)
-        // alert("Reservation submitted!");
+        // props.updateTimes(event.target[2].selectedOptions[0].id)
+        alert("Reservation submitted!");
     }
 
     return (
