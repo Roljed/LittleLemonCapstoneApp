@@ -4,3 +4,10 @@
     margin: auto;
     width: 900px;
 }
+
+main {
+    max-width: 60em;
+    margin: 1em auto;
+    padding: 2em;
+    border-radius: 2em;
+  }
