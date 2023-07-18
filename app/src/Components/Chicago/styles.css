@@ -1,0 +1,81 @@
+.chicago-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 365px;
+    text-align: left;
+    background-color: #495E57;
+    margin-bottom: 100px;
+    justify-content: left;
+}
+
+.about {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    margin: 20px 0px auto;
+    width: 250px;
+    height: 50px;
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    color: #F4CE14;
+}
+
+
+.about h4 {
+    margin: 0px 0px auto;
+    width: 150px;
+    height: 40px;
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    color: #EDEFEE;
+}
+
+.about p {
+    width: 380px;
+    margin: 5px 0px auto;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #EDEFEE;
+}
+
+.pictures {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+.chicago-img {
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 16px;
+
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.a {
+    transform: scaleX(-1);
+    right: 0px;
+}
+
+.b {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+}
