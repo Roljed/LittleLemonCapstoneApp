@@ -1,0 +1,4 @@
+.confirmed-section {
+    display: flex;
+    flex-flow: column;
+}
