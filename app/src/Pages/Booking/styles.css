@@ -1,0 +1,11 @@
+.booking-page {
+    max-width: 800px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-page h1 {
+    text-align: center;
+}
