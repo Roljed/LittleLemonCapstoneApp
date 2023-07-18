@@ -3,6 +3,7 @@ import { ReactComponent as Logo } from '../../assets/Logo.svg'
 
 import Home from '../../Pages/Home/Home';
 import About from '../../Pages/About/About';
+import BookingPage from '../../Pages/Booking/BookingPage';
 import './styles.css';
 
 const Navbar = () => {
@@ -20,6 +21,7 @@ const Navbar = () => {
         <Routes >
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/reservations" element={<BookingPage />} />
         </Routes>
         </>
     )
