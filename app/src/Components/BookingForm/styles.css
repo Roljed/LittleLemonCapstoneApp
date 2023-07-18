@@ -1,0 +1,14 @@
+form {
+    display: grid;
+    max-width: 400px;
+}
+
+.guests-input {
+    max-width: 35px;
+}
+
+.Field {
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+}
