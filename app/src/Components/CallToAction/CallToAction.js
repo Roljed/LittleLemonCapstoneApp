@@ -1,7 +1,7 @@
 import RestaurantFood from '../../assets/restauranfood.jpg'
 import './styles.css';
 
-const Hero = () => {
+const CallToAction = () => {
     return (
         <>
             <section className='hero'>
@@ -20,4 +20,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default CallToAction
