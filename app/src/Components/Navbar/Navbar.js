@@ -1,9 +1,6 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/Logo.svg'
 
-import Home from '../../Pages/Home/Home';
-import About from '../../Pages/About/About';
-import BookingPage from '../../Pages/Booking/BookingPage';
 import './styles.css';
 
 const Navbar = () => {
@@ -16,13 +13,8 @@ const Navbar = () => {
             <Link to="/menu" className="nav-item">Menu</Link>
             <Link to="/reservations" className="nav-item">Reservations</Link>
             <Link to="/order-online" className="nav-item">Order Online</Link>
-            <Link to="/log-in" className="nav-item">Login</Link>
+            <Link to="/login" className="nav-item">Login</Link>
         </nav>
-        <Routes >
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/reservations" element={<BookingPage />} />
-        </Routes>
         </>
     )
 }
