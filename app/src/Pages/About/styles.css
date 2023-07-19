@@ -15,12 +15,38 @@
 }
 
 .about {
-    max-width: 900px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    height: 350px;
     display: flex;
     flex-direction: column;
     text-align: left;
+    background-color: #495E57;
+}
+
+.about h2 {
+    margin: 20px 50px auto;
+    min-width: 400px;
+    max-width: 900px;
+    width: 100%;
+    color: #F4CE14;
+}
+
+.about section {
+    display: flex;
+    flex-flow: column;
+    max-width: 700px;
 }
 
 .about p {
-    margin: 0 0 auto;
+    line-height: 20px;
+    margin: 0px 5px auto;
+    min-width: 400px;
+    max-width: 900px;
+    width: 100%;
+    color: #EDEFEE;
+    text-align: left;
+    font-family: "Karla", sans-serif;
+    text-justify: distribute;
 }
