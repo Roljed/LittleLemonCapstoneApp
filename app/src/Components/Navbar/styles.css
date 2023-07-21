@@ -14,23 +14,21 @@
   }
 }
 
-
-.nav {
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #EDEFEE;
+  padding: 20px;
   flex-wrap: wrap;
   width: 100%;
   max-width: 900px;
   margin: 5px auto;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  background: #EDEFEE;
-  padding: 20px;
-}
-
 nav a {
   color: #333333;
   text-decoration: none;
   font-size: 20px;
+  border-radius: 7px;
+  padding: 2px 7px 2px 7px;
 }
