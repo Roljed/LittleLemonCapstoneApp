@@ -8,7 +8,7 @@ const Chicago = () => {
     return (
         <>
             <section className="chicago-section">
-                <section className="about">
+                <section className="chicago-about">
                     <h2>Little Lemon</h2>
                     <h4>Chicago</h4>
                     <p>Little Lemon is owned by two Italian brothers, Mario and Adrian, who
@@ -17,7 +17,7 @@ const Chicago = () => {
                     <p>To craft the menu, Mario relies on family recipes and his experience
                     as a chef in Italy.</p>
                 </section>
-                <section className="pictures">
+                <section className="chicago-pictures">
                     <img className="chicago-img a" alt="adrian-mario-a" src={picA}/>
                     <img className="chicago-img b" alt="adrian-mario-b" src={picB}/>
                 </section>
