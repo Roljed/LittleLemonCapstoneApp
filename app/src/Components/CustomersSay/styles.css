@@ -16,6 +16,14 @@
     margin-bottom: 40px;
 }
 
+.customer-header {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px auto;
+    max-width: 900px;
+    min-width: 350px;
+}
+
 .customer-testimonials ul {
     display: flex;
     flex-direction: row;

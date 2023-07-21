@@ -42,7 +42,9 @@ const CustomersSay = () => {
     return (
         <>
             <section className='customer-testimonials'>
-                <h2>Customer Testimonials</h2>
+                <header className='customer-header'>
+                    <h2>Customer Testimonials</h2>
+                </header>
                     <ul>
                         {listItems}
                     </ul>
