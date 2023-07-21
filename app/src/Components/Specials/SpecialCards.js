@@ -30,15 +30,15 @@ const specials = [
 const SpecialCards = () => {
   const navigate = useNavigate()
 
-  const navigateToReservations = () => {
+  const navigateToMenu = () => {
       navigate("/menu")
   }
     return (
         <>
             <div className="special-section">
-              <header>
+              <header className='special-header'>
                 <h2 className="specials-title">These weeks specials!</h2>
-                <button className="button-online-menu" onClick={navigateToReservations}>Online Menu</button>
+                <button className="button-online-menu" onClick={navigateToMenu}>Online Menu</button>
               </header>
               <div className="container-specials">
                   {specials.map((dish) => (
