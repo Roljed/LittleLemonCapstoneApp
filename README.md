@@ -1,5 +1,7 @@
 # Little Lemon Capstone App
-Meta's Front-End Capstone Project
+Meta's Front-End Capstone Project.
+
+Built with HTML, CSS, JavaScript and React.
 
 ## Screenshots
 
