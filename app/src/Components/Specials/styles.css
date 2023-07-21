@@ -5,13 +5,44 @@
     row-gap: 30px;
 }
 
+.special-section header {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-end;
+    min-width: 400px;
+    max-width: 900px;
+}
+
 .specials-title {
     font-family: 'Markazi Text';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 48px;
-    margin: 0px 20px auto;
+    /* margin: 0px 20px; */
+}
+
+.button-online-menu {
+    /* margin: 14px 20px auto; */
+    margin-right: 87px;
+    color: #EDEFEE;
+    background-color: #333333;
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-online-menu:hover {
+    color: #EDEFEE;
+    background-color: #F4CE14;
+}
+
+.button-online-menu:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .container-specials {

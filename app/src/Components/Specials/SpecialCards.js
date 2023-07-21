@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import Special from "./Special"
 
 import './styles.css';
@@ -27,21 +28,29 @@ const specials = [
 ];
 
 const SpecialCards = () => {
+  const navigate = useNavigate()
+
+  const navigateToReservations = () => {
+      navigate("/menu")
+  }
     return (
         <>
             <div className="special-section">
+              <header>
                 <h2 className="specials-title">These weeks specials!</h2>
-                <div className="container-specials">
-                    {specials.map((dish) => (
-                    <Special
-                        name={dish.title}
-                        price={dish.price}
-                        description={dish.description}
-                        url=""
-                        imageSrc={dish.getImageSrc()}
-                    />
-                    ))}
-                </div>
+                <button className="button-online-menu" onClick={navigateToReservations}>Online Menu</button>
+              </header>
+              <div className="container-specials">
+                  {specials.map((dish) => (
+                  <Special
+                      name={dish.title}
+                      price={dish.price}
+                      description={dish.description}
+                      url=""
+                      imageSrc={dish.getImageSrc()}
+                  />
+                  ))}
+              </div>
             </div>
         </>
     )
