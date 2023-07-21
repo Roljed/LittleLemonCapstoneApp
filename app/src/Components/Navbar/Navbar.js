@@ -1,19 +1,22 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/Logo.svg'
 
 import './styles.css';
 
 const Navbar = () => {
+    const navStyle = ({ isActive }) => ({
+        background: isActive ? "#F4CE14" : "",
+      })
     return (
         <>
-        <nav className="nav">
+        <nav>
             <Logo/>
-            <Link to="/" className="nav-item">Home</Link>
-            <Link to="/about" className="nav-item">About</Link>
-            <Link to="/menu" className="nav-item">Menu</Link>
-            <Link to="/reservations" className="nav-item">Reservations</Link>
-            <Link to="/order-online" className="nav-item">Order Online</Link>
-            <Link to="/login" className="nav-item">Login</Link>
+            <NavLink to="/" className="nav-item" style={navStyle}>Home</NavLink>
+            <NavLink to="/about" style={navStyle}>About</NavLink>
+            <NavLink to="/menu" style={navStyle}>Menu</NavLink>
+            <NavLink to="/reservations" style={navStyle}>Reservations</NavLink>
+            <NavLink to="/order-online" style={navStyle}>Order Online</NavLink>
+            <NavLink to="/login" style={navStyle}>Login</NavLink>
         </nav>
         </>
     )
