@@ -1,7 +1,15 @@
+import { useNavigate } from 'react-router-dom';
+
 import './styles.css';
 import DeliveryIcon from "../../assets/scooter.svg"
 
 const Special = (props) => {
+    const navigate = useNavigate()
+
+    const navigateToOrderOnline = () => {
+        navigate("/order-online")
+    }
+
     return (
         <div className="special-card">
             <heading>
@@ -14,10 +22,10 @@ const Special = (props) => {
             <main className="dish-details">
                 <p>{props.description}</p>
             </main>
-            <footer className="special-card-footer">
+            <button className="button-order-delivery" onClick={navigateToOrderOnline}>
                 <p>Order a delivery</p>
                 <img className="delivery-icon" alt="delivery" src={DeliveryIcon}/>
-            </footer>
+            </button>
         </div>
     )
 }
